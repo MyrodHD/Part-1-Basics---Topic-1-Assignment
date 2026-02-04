@@ -6,7 +6,8 @@
         {
             // #1 a,b,c,d Below
             string firstName = "Linkin";
-            string favMovie = "THE MATRIX";
+            string favMovie = "The Matrix";
+            favMovie = favMovie.ToUpper();
 
             Console.WriteLine($"hello {firstName}, welcome to the program. based on what your doing here i am going to assume you like the movie {favMovie}");
             Console.WriteLine();
@@ -32,7 +33,6 @@
             Console.WriteLine();
 
             //#3 Below
-
             Console.WriteLine(".==========.         ,*-.");
             Console.WriteLine("|      |   |         |  |");
             Console.WriteLine("| ===. .=. |     ,.  |  |");
